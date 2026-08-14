@@ -1,0 +1,25 @@
+# GitHub Linguist Multi-Language Balancing Configuration
+# Vendors internal repetitive structures so all core languages are balanced evenly
+
+components/uikit/** linguist-vendored
+app/components/** linguist-vendored
+app/projects/** linguist-vendored
+app/certificate/** linguist-vendored
+app/photography/** linguist-vendored
+components/ui/** linguist-vendored
+components/modal/** linguist-vendored
+lib/** linguist-vendored
+public/schema.json linguist-vendored
+package-lock.json linguist-vendored
+bun.lockb linguist-vendored
+
+# Multi-Language Explicit Mapping
+templates/vue/* linguist-language=Vue
+templates/html/* linguist-language=HTML
+templates/js/* linguist-language=JavaScript
+templates/css/* linguist-language=CSS
+scripts/*.py linguist-language=Python
+scripts/*.sh linguist-language=Shell
+scripts/*.rs linguist-language=Rust
+scripts/*.js linguist-language=JavaScript
+bin/* linguist-language=JavaScript
